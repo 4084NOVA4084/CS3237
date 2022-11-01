@@ -7,7 +7,6 @@ attrs==22.1.0
 brotlipy==0.7.0
 cachetools==5.2.0
 certifi==2022.9.24
-cffi @ file:///opt/conda/conda-bld/cffi_1642701102775/work
 charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
 colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
 conda==22.9.0
