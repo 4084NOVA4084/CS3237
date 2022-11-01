@@ -21,8 +21,10 @@ def send_to_telegram(message):
 
 previous = time()
 delta = 0
-seconds = 5
+seconds = 1
 flag = 0
+
+send_to_telegram("testing")
 
 while True:
     current = time()
@@ -37,3 +39,4 @@ while True:
             send_to_telegram("I have received [" + response[-1]['channel_post']['text'] + "] ~ !")
             flag = response[-1]['update_id']
         delta = 0
+
