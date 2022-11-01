@@ -23,7 +23,6 @@ MarkupSafe==2.1.1
 multidict==6.0.2
 numpy==1.23.3
 oauthlib==3.2.1
-opencv-python==4.6.0.66
 opt-einsum==3.3.0
 packaging==21.3
 paho-mqtt==1.6.1
@@ -38,7 +37,6 @@ rsa==4.9
 scipy==1.9.2
 telepot==12.7
 termcolor==2.0.1
-torch==1.12.1
 typing_extensions==4.4.0
 Werkzeug==2.2.2
 wrapt==1.14.1
