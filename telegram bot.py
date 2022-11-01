@@ -33,7 +33,6 @@ while True:
     # pprint(response)
     
     if delta > seconds:
-        print(response)
         if response[-1]['update_id'] !=  flag:
             send_to_telegram("I have received [" + response[-1]['channel_post']['text'] + "] ~ !")
             flag = response[-1]['update_id']
